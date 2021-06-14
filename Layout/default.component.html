@@ -1,0 +1,13 @@
+<app-chartsheader (toggleSideBarForMe)="sideBarToggler()"></app-chartsheader>
+
+<mat-drawer-container>
+    <mat-drawer mode="side" [opened]="sideBarOpen">
+        
+        <app-chartssidebar></app-chartssidebar>
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
+
+<app-chartsfooter></app-chartsfooter>

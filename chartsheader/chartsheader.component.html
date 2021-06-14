@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <button mat-icon-button (click)="toggleSideBar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+   <span>Charts App</span>
+    <div fxFlex fxLayout="row" fxLayoutAlign="flex-end" >
+        <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+            <li><a routerLink="/">
+                <button mat-icon-button>
+                    <mat-icon>settings</mat-icon>
+                </button>
+            </a></li>
+            <li><a routerLink="/signup">
+                <button mat-icon-button>
+                    <mat-icon>person_outline</mat-icon>
+                </button>
+                </a></li>
+                <li><a routerLink="/signin">
+                    <button mat-icon-button>
+                        <mat-icon>exit_to_app</mat-icon>
+                    </button>
+                    </a></li>
+        </ul>
+    </div>
+</mat-toolbar-row>
+  </mat-toolbar>

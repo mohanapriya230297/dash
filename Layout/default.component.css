@@ -1,0 +1,24 @@
+mat-drawer {
+    width: 350px;
+  }
+  
+  mat-drawer-container {
+    height: 100%;
+  }
+  
+  mat-drawer-content {
+    padding: 20px;
+  }
+ app-chartssidebar{
+   height: 100%;
+ }
+  :host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+#main-head{
+    background-color: cornflowerblue;
+    text-align: center;
+  }
